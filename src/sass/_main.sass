@@ -20,6 +20,12 @@
 	max-width: 1200px
 	min-height: 1200px
 	margin: 0 auto
+	+r(1025)
+		padding: 150px 50px
+	+r(768)
+		padding: 150px 25px
+	+r(600)
+		padding: 0
 
 .svg-box
 	+flex(0 0 100%)
@@ -29,6 +35,13 @@
 		width: 100%
 		height: 500px
 		padding: 65px 25%
+		+r(1025)
+			padding: 15px 150px
+			height: 750px
+		+r(768)
+			padding: 25px 50px
+		+r(600)
+			padding: 25px
 .button
 	&_trigger
 		display: inline-block
