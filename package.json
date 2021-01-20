@@ -66,6 +66,6 @@
     "lodash": "^4.3.0"
   },
   "dependencies": {
-    "gsap": "^1.20.2"
+    "gsap": "^3.6.0"
   }
 }
